@@ -1,0 +1,25 @@
+site_name: My Docs
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - 框架说明: framework designing.md
+  - SQLs: sqls.md
+  - API: api.md
+
+plugins:
+- mkdocstrings:
+    handlers:
+      python:
+        paths: [../src, ../src/pages]
+        options:
+          show_source: false

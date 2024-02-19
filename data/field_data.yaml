@@ -1,0 +1,16 @@
+---
+# 属性prop:字段feild
+业务对象A属性:
+  客户id: customer_id
+  省份: province_name
+  行业: hy_name
+  客户等级: customer_level
+  客户类型: customer_type
+业务对象B属性:
+  产品名: product
+事件属性:
+  # 度量
+  客户id: customer_id
+  出账收入: income
+  # 时间
+  时间: account_period
